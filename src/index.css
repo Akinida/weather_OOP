@@ -1,0 +1,37 @@
+.weather-info {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  justify-content: center;
+}
+
+.day-forecast {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+
+.forecast-item {
+  border-bottom: 1px solid #ccc;
+  padding: 16px;
+}
+
+.forecast-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.forecast-card {
+  width: calc(50% - 10px); /* Adjust the width as needed */
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .forecast-card {
+      width: 100%;
+  }
+}
